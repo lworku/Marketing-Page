@@ -420,6 +420,14 @@ header {
   display: flex;
   justify-content: space-between;
 }
+header nav {
+  margin: 25px 0px 0px 0px;
+}
+header nav a {
+  text-decoration: none;
+  color: #545454;
+  margin: 0px 0px 0px 69px;
+}
 .content {
   width: fit-content;
   margin: 0px 0px 0px 22px;
@@ -433,12 +441,20 @@ header {
   max-width: 16.9%;
   display: flex;
   border-right: solid #dddddd 1px;
+  flex-flow: column;
 }
-#searchResults {
+#leftWhitespace p {
+  font-weight: bold;
+  font-size: 2rem;
+}
+#searchResultsContainer {
   display: flex;
   flex-flow: column;
   flex-grow: 1;
   margin-left: 30px;
+}
+#searchResultsContainer :nth-of-type(2) {
+  border: none;
 }
 #resultsDescription {
   width: 100%;
@@ -456,12 +472,17 @@ header {
   float: left;
   position: absolute;
 }
+#totalStudiesFound {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
 .trialContainer {
   width: 100%;
   height: 123px;
   padding: 20px 0px;
   display: flex;
-  border-top: #dddddd 2px solid;
+  border-top: #f3f3f3 2px solid;
 }
 .condition {
   flex-basis: 16%;
@@ -496,10 +517,12 @@ header {
 }
 #searchNavigator nav {
   display: flex;
-  justify-content: space-between;
 }
 #searchNavigator nav a {
   margin-right: 50px;
+  text-decoration: none;
+  color: #323232;
+  font-weight: bold;
 }
 footer {
   width: 1368px;

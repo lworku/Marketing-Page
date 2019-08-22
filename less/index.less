@@ -459,6 +459,14 @@ header {
   margin: 25px 0px 0px 0px;
   display: flex;
   justify-content: space-between;
+  nav {
+    margin: 25px 0px 0px 0px;
+    a {
+      text-decoration: none;
+      color: #545454;
+      margin: 0px 0px 0px 69px;
+    }
+  }
 }
 
 .content {
@@ -476,13 +484,21 @@ header {
   max-width: 16.9%;
   display: flex;
   border-right: solid #dddddd 1px;
+  p {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  flex-flow: column;
 }
 
-#searchResults {
+#searchResultsContainer {
   display: flex;
   flex-flow: column;
   flex-grow: 1;
   margin-left: 30px;
+  :nth-of-type(2) {
+    border: none;
+  }
 }
 
 #resultsDescription {
@@ -504,12 +520,18 @@ header {
   }
 }
 
+#totalStudiesFound {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
 .trialContainer {
   width: 100%;
   height: 123px;
   padding: 20px 0px;
   display: flex;
-  border-top: #dddddd 2px solid;
+  border-top: #f3f3f3 2px solid;
 }
 
 .condition {
@@ -550,9 +572,11 @@ header {
 
   nav {
     display: flex;
-    justify-content: space-between;
     a {
       margin-right: 50px;
+      text-decoration: none;
+      color: #323232;
+      font-weight: bold;
     }
   }
 }
