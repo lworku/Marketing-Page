@@ -459,9 +459,16 @@ header {
 }
 .condition {
   flex-basis: 16%;
+  display: flex;
+  align-items: center;
 }
 .studyTitle {
   flex-basis: 30%;
+}
+.studyTitle h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0px 0px 0px 0px;
 }
 .studyLocation {
   flex-basis: 25%;
