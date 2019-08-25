@@ -438,7 +438,6 @@ header nav a {
   display: flex;
 }
 #leftWhitespace {
-  width: 15vw;
   display: flex;
   border-right: solid #dddddd 1px;
   flex-flow: column;
@@ -452,10 +451,8 @@ header nav a {
   display: flex;
   flex-flow: column;
   flex-grow: 1;
-  margin-left: 28px;
-}
-#searchResultsContainer :nth-of-type(3) {
-  border: none;
+  margin-left: 30px;
+  width: 92%;
 }
 #resultsDescription {
   width: 100%;
@@ -463,12 +460,16 @@ header nav a {
   position: relative;
 }
 #resultsDescription h1 {
+  font-size: 26px;
   font-weight: bold;
-  font-size: 2rem;
+  line-height: 32px;
+  padding: 0px 0px 0px 4px;
+  letter-spacing: 0.2px;
 }
 #resultsDescription h2 {
+  font-size: 21px;
   font-weight: bold;
-  font-size: 2rem;
+  line-height: 26px;
   bottom: 0px;
   float: left;
 }
@@ -477,61 +478,80 @@ header nav a {
   font-size: 3rem;
   text-align: center;
 }
+.firstTrialContainer {
+  width: 100%;
+  height: 123px;
+  padding: 20px 0px 24px 0px;
+  display: flex;
+  border-top: #f3f3f3 2px solid;
+}
 .trialContainer {
   width: 100%;
   height: 123px;
-  padding: 22px 0px;
+  padding: 16px 0px 24px 0px;
   display: flex;
   border-top: #f3f3f3 2px solid;
 }
 .condition {
-  flex-basis: 16%;
+  width: 17.2%;
   display: flex;
   align-items: center;
   font-size: 14px;
 }
+.condition p {
+  padding: 9px 0px 0px 0px;
+}
 .studyTitle {
-  flex-basis: 30%;
+  width: 27%;
 }
 .studyTitle h3 {
-  font-size: 1.25rem;
-  font-weight: bolder;
-  padding: 22px 0px 0px 14px;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 27px;
-  letter-spacing: 0px;
+  padding: 26px 0px 0px 0px;
+  letter-spacing: 0.1px;
 }
 .studyLocation {
-  flex-basis: 25%;
   display: flex;
+  width: 28.2%;
   font-weight: 600;
   font-size: 18px;
 }
 .studyStatus {
-  flex-basis: 9%;
   display: flex;
   flex-flow: column;
   justify-content: center;
   text-align: center;
   align-self: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
 }
 .viewStudyButtonContainer {
-  flex-basis: 15%;
-  padding-left: 42px;
+  padding: 44px 0px 0px 73px;
   display: flex;
   justify-content: center;
-  margin: auto auto;
 }
 .viewStudyButton {
+  height: 46px;
+  width: 144px;
+  border-radius: 23px;
+  display: flex;
+  justify-content: center;
   background-color: #223547;
   color: #ffffff;
-  padding: 10px;
-  border-radius: 10%;
-  font-size: 1.1rem;
+}
+.viewStudyButton p {
+  text-align: center;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
 }
 #resultsDetails {
   position: relative;
   display: flex;
-  margin-top: 44px;
+  margin: 40px 0px 0px 0px;
 }
 #resultsDetails h2 {
   font-weight: bold;
@@ -555,13 +575,13 @@ header nav a {
   font-weight: bold;
 }
 #condition {
-  flex-basis: 16%;
+  flex-basis: 17%;
 }
 #studyTitle {
   flex-basis: 30%;
 }
 #closestStudyLocation {
-  flex-basis: 25%;
+  flex-basis: 25.4%;
 }
 #status {
   flex-basis: 9%;
@@ -569,29 +589,38 @@ header nav a {
 .distance {
   display: flex;
   flex-flow: column;
-  flex-basis: 44%;
   justify-content: center;
   text-align: center;
+  padding: 0px 0px 0px 45px;
 }
 .distance h1 {
-  font-size: 2rem;
-  padding: 0px 0px 0px 0px;
+  font-size: 33px;
   font-weight: bold;
+  padding: 7px 0px 5px 0px;
+}
+.distance p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
 }
 .locationDetails {
   display: flex;
-  flex-basis: 70%;
   flex-flow: column;
-  padding: 4px 0px 0px 22px;
+  padding: 7px 0px 0px 35px;
   line-height: 18px;
   justify-content: center;
+  letter-spacing: 0.5px;
 }
 .locationDetails h2 {
   font-weight: bold;
   font-size: 1.1rem;
+  padding: 0px 0px 4px 0px;
 }
 .locationDetails p {
   margin: 0px 0px 0px 0px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0px;
 }
 footer {
   width: 1368px;
@@ -603,7 +632,7 @@ footer {
   border-radius: 100%;
   width: 18px;
   height: 18px;
-  margin: 1px auto;
+  margin: 6px auto;
 }
 .defaultSpacer {
   margin: 0px 0px 0px 0px;
