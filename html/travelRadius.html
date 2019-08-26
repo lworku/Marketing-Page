@@ -6,22 +6,35 @@
         <link rel='stylesheet' href='../css/main.css'/>
     </head>
 
-<body>
+<body class="travelRadiusContainer">
 
-    <header>
+    <header class="travelRadiusLogo">
         <img src="../img/studybook-logo-smaller.png" alt="Sea green caduceus to the left of the word 'studybook'.">
     </header>
 
-    <section>
+    <section class="travelRadiusMainContent">
 
-        <form>
-        
+        <div class=travelRadiusDial>
+            <img src="../img/Oval.png">
+            <!--Temporary, using for spacing-->
+        </div>
+
+        <form class="travelRadiusPrompt">
+            <p>How far are you willing to travel?</p>
+            <label for="travelRadiusInput">
+                How far are you willing to travel?
+            </label>
+
             <input type="radio" name="radius" value="20" > 20 miles<br>
             <input type="radio" name="radius" value="50"> 50 miles<br>
             <input type="radio" name="radius" value="100"> 100 miles<br>
             <input type="radio" name="radius" value="Any"> Any distance<br>
 
         </form> 
+
+        <div class="travel-results">
+                <p class="travel-results-text">212 trials found</p>
+            </div>
 
     </section>
 
