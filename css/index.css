@@ -434,11 +434,11 @@ header nav a {
   line-height: 21px;
 }
 .content {
-  width: fit-content;
+  width: 71.25vw;
   margin: 0px 0px 0px 22px;
 }
 #searchContainer {
-  width: 1368px;
+  width: auto;
   margin: 70px 0px 0px 0px;
   display: flex;
 }
@@ -447,6 +447,10 @@ header nav a {
   width: 17%;
   border-right: solid #dddddd 1px;
   flex-flow: column;
+}
+#leftWhitespace a {
+  color: #545454;
+  text-decoration: none;
 }
 #searchResultsContainer {
   display: flex;
@@ -544,6 +548,22 @@ header nav a {
   display: flex;
   justify-content: center;
 }
+.viewStudyButtonContainer :hover {
+  transition: 0.2s;
+  background-color: #1bd9c4;
+  color: #ffffff;
+}
+.viewStudyButtonContainer :hover p {
+  transition: 0.5s;
+  background-color: unset;
+}
+#studyButtonContainer :hover {
+  transition: 0.2s;
+  background-color: #1bd9c4;
+}
+#studyButtonContainer :hover :first-child {
+  color: #ffffff;
+}
 .viewStudyButton {
   height: 46px;
   width: 144px;
@@ -559,6 +579,15 @@ header nav a {
   font-size: 18px;
   font-weight: 500;
   line-height: 21px;
+  background-color: unset;
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard */
 }
 .newStudyButton {
   height: 46px;
