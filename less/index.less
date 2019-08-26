@@ -1,0 +1,204 @@
+
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url('gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gilroylight';
+    src: url('gilroy-light-webfont.woff2') format('woff2'),
+         url('gilroy-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+	// width: 1440px;
+	// height: 1408px;
+}
+
+body {
+	// width:90%;
+	margin: 0 auto;
+	// // min-height: 100vh;
+	// //background-image: url(/img/molecules.svg);
+	// background-size: cover;
+	// background-repeat: no-repeat;
+}
+
+
+.main-content {
+	width: 100%;
+	padding-left: 5%;
+	padding-top: 10%;
+	// min-height: 100vh;
+	//background-image: url(/img/molecules.svg);
+}
+
+.prompt-header {
+	width: 40%;
+	font-family: "gilroylight";
+	font-weight: bold;
+	font-size: 3.75rem;
+	color: @font-color;
+	line-height: 1.25em;
+	padding-bottom: 2.5%;
+}
+
+.prompt-paragraph {
+	width: 47%;
+	padding-bottom: 2.5%;
+}
+// .question-content {
+// 	width: 500px;
+
+// 		h1 {
+// 			font-family: 'gilroylight';
+// 		}
+// 		p {
+// 			font-family: 'gilroylight';
+// 			line-height: 1.5;
+// 			font-size: 1.6rem;
+// 			padding-bottom: 50px;
+// 		}
+// }
+
+
+#findTrialButton{
+	background-color: @button-color;
+	font-family: "gilroylight";
+	height: 42px;
+	width: 127px;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 21px;
+	margin-left: 6px;
+	text-transform: uppercase;
+	transition: .3s background ease;
+
+	&:hover{
+		background: #1BD9C4
+	}
+}
+
+#medicalConditionInput {
+	margin-right: 10px;
+	width: 25.000em;
+	height: 42px;
+	border-radius: 21px;
+	border: .05em solid #979797;
+}
+
+#postalCode {	
+	height: 42px;	
+	width: 86px;	
+	color: #828282;	
+	font-family: "gilroylight";	
+	font-size: 15px;	
+	font-weight: 500;	
+	line-height: 18px;
+	border: .05em solid #979797;
+	border-radius: 21px;
+}
+
+label {
+	display: none;
+}
+
+.molecules{
+	margin-top: -18%;
+	margin-bottom: 1.5%;
+}
+
+// STYLE FOR AGE.PNG
+
+.age-container {
+	margin: 0 auto;
+}
+
+.age-page-logo {
+	padding-top: 7%;
+	padding-left: 18%;
+	padding-bottom: 8%;
+}
+
+.age-dial {
+	margin-left: 20%;
+}
+.age-main-content {
+	display: flex;
+}
+
+.age-prompt {
+	display:flex;
+	flex-direction: column;
+	height: 50vh;
+	margin-left: 7%;
+	margin-right: 5%;
+
+	p{
+		padding-bottom: 10%;
+		font-size: 2.5em;
+	}
+
+}
+
+#ageInput {
+	width: 25.000em;
+	height: 42px;
+	border-radius: 21px;
+	border: .05em solid #979797;
+}
+
+#submitAge{
+	background-color: @button-color;
+	font-family: "gilroylight";
+	height: 42px;
+	width: 100px;
+	margin-top: 25px;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 21px;
+	text-transform: uppercase;
+	transition: .3s background ease;
+
+	&:hover{
+		background: #1BD9C4
+	}
+}
+
+
+.results-text {
+	height: 91px;
+	width: 232px;
+	padding-top: 14%; 
+	margin-left: 50%;
+	font-size: 2em;
+	text-align: center;
+	justify-items: center;
+	box-shadow: 0 2px 6px 0 rgba(0,0,0,0.21);
+}
+
+.ageBackArrow{
+	margin-left: 10%;
+}
+
+
+
+
+
+
+
