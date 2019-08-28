@@ -433,6 +433,15 @@ header nav a {
   font-weight: 500;
   line-height: 21px;
 }
+header #findATrial {
+  padding: 0px 0px 0px 0px;
+}
+header #about {
+  padding: 0px 0px 0px 7px;
+}
+header #help {
+  padding: 0px 0px 0px 0px;
+}
 .content {
   width: 71.25vw;
   margin: 0px 0px 0px 22px;
@@ -441,6 +450,7 @@ header nav a {
   width: auto;
   margin: 70px 0px 0px 0px;
   display: flex;
+  border-bottom: #f3f3f3 2px solid;
 }
 #leftWhitespace {
   display: flex;
@@ -544,11 +554,15 @@ header nav a {
   line-height: 16px;
 }
 .viewStudyButtonContainer {
-  padding: 44px 0px 0px 73px;
+  margin: 44px 0px 0px 73px;
   display: flex;
   justify-content: center;
 }
-.viewStudyButtonContainer :hover {
+.viewStudyButtonContainer a {
+  text-decoration: none;
+  height: 0px;
+}
+.viewStudyButtonContainer :hover div {
   transition: 0.2s;
   background-color: #1bd9c4;
   color: #ffffff;
@@ -557,11 +571,11 @@ header nav a {
   transition: 0.5s;
   background-color: unset;
 }
-#studyButtonContainer :hover {
+#studyButtonContainer :hover div {
   transition: 0.2s;
   background-color: #1bd9c4;
 }
-#studyButtonContainer :hover :first-child {
+#studyButtonContainer :hover div :first-child {
   color: #ffffff;
 }
 .viewStudyButton {
@@ -570,12 +584,11 @@ header nav a {
   border-radius: 23px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #223547;
   color: #ffffff;
 }
 .viewStudyButton p {
-  text-align: center;
-  margin: auto;
   font-size: 18px;
   font-weight: 500;
   line-height: 21px;
@@ -588,6 +601,7 @@ header nav a {
   /* IE10+/Edge */
   user-select: none;
   /* Standard */
+  color: white;
 }
 .newStudyButton {
   height: 46px;
@@ -683,7 +697,7 @@ header nav a {
 footer {
   width: 1368px;
   height: 55px;
-  margin: 27px 0px 0px 6px;
+  margin: 25px 0px 0px 6px;
 }
 .statusIcon {
   background-color: #1bd9c4;

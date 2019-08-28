@@ -472,6 +472,18 @@ header {
       line-height: 21px;
     }
   }
+
+  #findATrial {
+    padding: 0px 0px 0px 0px;
+  }
+
+  #about {
+    padding: 0px 0px 0px 7px;
+  }
+
+  #help {
+    padding: 0px 0px 0px 0px;
+  }
 }
 
 .content {
@@ -483,6 +495,7 @@ header {
   width: auto;
   margin: 70px 0px 0px 0px;
   display: flex;
+  border-bottom: #f3f3f3 2px solid;
 }
 
 #leftWhitespace {
@@ -601,11 +614,16 @@ header {
 }
 
 .viewStudyButtonContainer {
-  padding: 44px 0px 0px 73px;
+  margin: 44px 0px 0px 73px;
   display: flex;
   justify-content: center;
 
-  :hover {
+  a {
+    text-decoration: none;
+    height: 0px;
+  }
+
+  :hover div {
     transition: 0.2s;
     background-color: #1bd9c4;
     color: #ffffff;
@@ -618,7 +636,7 @@ header {
 }
 
 #studyButtonContainer {
-  :hover {
+  :hover div {
     transition: 0.2s;
     background-color: #1bd9c4;
     :first-child {
@@ -633,12 +651,11 @@ header {
   border-radius: 23px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #223547;
   color: #ffffff;
 
   p {
-    text-align: center;
-    margin: auto;
     font-size: 18px;
     font-weight: 500;
     line-height: 21px;
@@ -647,6 +664,7 @@ header {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
+    color: white;
   }
 }
 
@@ -756,7 +774,7 @@ header {
 footer {
   width: 1368px;
   height: 55px;
-  margin: 27px 0px 0px 6px;
+  margin: 25px 0px 0px 6px;
 }
 
 .statusIcon {
