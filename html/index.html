@@ -21,34 +21,24 @@
     </div>
     
     <section class="main-content">
-        <div question="prompt">
+        <div>
             <h1 class="prompt-header">Looking for a clinical trial near you?</h1>
             <p class="prompt-paragraph">We'll help you break through the complex medical jargon and find a clinical study that you're eligible to join.</p>
             
-            <span>
-                <form action='' method='GET' class='search-form'>
-                    <label for="medicalConditionInput">
-                        Medical Condition
-                    </label>
-                    <input type="text" id="medicalConditionInput">
-                    
-                    <label for="postalCode">
-                        postalCode
-                    </label>
-                    <input type="text" id="postalCode">
+            <div class="findTrialInputs">
+                <input id="medicalConditionInput" type="text" placeholder="Medical Condition">
 
-                    <input type="submit" value="Find a Trial" id='findTrialButton'>
+                <input id="postalCodeInput" type="text" placeholder="Postal Code">
 
-                    <!-- <button class="findTrialButton" type="submit">FIND A TRIAL</button> -->
-                
-                
-                </form>
-            </span>
+                <a href="./travelRadius.html"><button id=findTrialButton>FIND A TRIAL</button></a>
+            </div>
+
         </div>
     </section>
 
     <div class="molecules">
-        <img src="../img/molecules.svg">
+
+     <img src="../img/molecules.svg">
 
     </div>
     

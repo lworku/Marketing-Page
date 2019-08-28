@@ -43,45 +43,52 @@ body {
 .prompt-header {
 	width: 40%;
 	font-family: "gilroylight";
-	font-weight: bold;
-	font-size: 3.75rem;
+	font-weight: 900;
+	// font-size: 3.75rem;
 	color: @font-color;
 	line-height: 1.25em;
-	padding-bottom: 2.5%;
+	// padding-bottom: 2.5%;
+
+	padding: 52px 0px 0px 17px;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.05px;
 }
+
 
 .prompt-paragraph {
-	width: 47%;
-	padding-bottom: 2.5%;
+	// width: 47%;
+	// padding-bottom: 2.5%;
+	padding: 36px 0px 0px 13px;
+    font-family: gilroylight;
+    line-height: 30px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    /* padding-bottom: 10px; */
+    width: 40%;
+	//pixel perfect need to make responsive
 }
-// .question-content {
-// 	width: 500px;
 
-// 		h1 {
-// 			font-family: 'gilroylight';
-// 		}
-// 		p {
-// 			font-family: 'gilroylight';
-// 			line-height: 1.5;
-// 			font-size: 1.6rem;
-// 			padding-bottom: 50px;
-// 		}
-// }
-
+.findTrialInputs {
+	display: flex;
+	padding: 45px 0px 0px 11px;
+}
 
 #findTrialButton{
 	background-color: @button-color;
 	font-family: "gilroylight";
 	height: 42px;
 	width: 127px;
-	border: none;
+	border: 0;
 	color: white;
 	text-align: center;
+	align-items: center;
+	justify-content: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
 	border-radius: 21px;
-	margin-left: 6px;
+    margin: 0px 0px 0px 9px;
 	text-transform: uppercase;
 	transition: .3s background ease;
 
@@ -92,30 +99,32 @@ body {
 
 #medicalConditionInput {
 	margin-right: 10px;
-	width: 25.000em;
+    padding: 0px 0px 0px 19px;
+    width: 30em;
+    height: 42px;
+    border-radius: 21px;
+    border: 0.05em solid #979797;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: 'gilroylight'
+}
+
+#postalCodeInput {	
 	height: 42px;
-	border-radius: 21px;
-	border: .05em solid #979797;
-}
-
-#postalCode {	
-	height: 42px;	
-	width: 86px;	
-	color: #828282;	
-	font-family: "gilroylight";	
-	font-size: 15px;	
-	font-weight: 500;	
-	line-height: 18px;
-	border: .05em solid #979797;
-	border-radius: 21px;
-}
-
-label {
-	display: none;
+    width: 134px;
+    color: #828282;
+    font-family: "gilroylight";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    border: 0.05em solid #979797;
+    border-radius: 21px;
+    padding: 0px 0px 0px 25px;
 }
 
 .molecules{
-	margin-top: -18%;
+	
+	margin-top: -26%;
 	margin-bottom: 1.5%;
 }
 
