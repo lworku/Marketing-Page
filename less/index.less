@@ -586,6 +586,8 @@ header {
 
 .studyTitle {
   width: 27%;
+  overflow: auto;
+  min-width: 15%;
   h3 {
     font-size: 18px;
     font-weight: 600;
@@ -611,6 +613,7 @@ header {
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
+  align-items: center;
 }
 
 .viewStudyButtonContainer {
@@ -669,8 +672,8 @@ header {
 }
 
 .newStudyButton {
-  height: 46px;
-  width: 193px;
+  height: auto;
+  width: 83.7%;
   border-radius: 23px;
   background-color: #ffffff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
@@ -678,11 +681,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: fit-content;
 
   p {
     font-size: 18px;
     font-weight: 500;
     line-height: 21px;
+    padding: 12px 0px 12.5px 0px;
+    text-align: center;
   }
 }
 
@@ -782,9 +788,100 @@ footer {
   border-radius: 100%;
   width: 18px;
   height: 18px;
-  margin: 6px auto;
 }
 
 .defaultSpacer {
   margin: 0px 0px 0px 0px;
+}
+
+#contentContainer {
+  margin: 73px 0px 0px 62px;
+}
+
+#resultsBackButton {
+  height: auto;
+  border-radius: 23px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin: 40px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: fit-content;
+
+  p {
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 21px;
+    padding: 13px 0px 12px 0px;
+  }
+}
+
+#resultsBackButtonContainer {
+  width: 19.05%;
+  margin-bottom: 50px;
+}
+
+#contentContainer a {
+  text-decoration: none;
+  color: #3f3f3f;
+}
+
+#studyDetailsContainer {
+}
+
+#introDetails {
+  display: flex;
+  flex-flow: column;
+  p {
+    font-size: 14px;
+    align-self: center;
+    color: #8e8e8e;
+  }
+
+  h2 {
+    letter-spacing: 1px;
+    margin-bottom: 17px;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 55px;
+    padding-right: 41%;
+    letter-spacing: 0.39px;
+    margin-bottom: 16px;
+  }
+
+  a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 99px;
+  }
+}
+
+#recruitmentStatus {
+  margin-bottom: 31px;
+  display: flex;
+  p {
+    margin-left: 10px;
+    font-weight: bolder;
+  }
+}
+
+#studyPurpose {
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    padding-right: 5%;
+  }
 }
