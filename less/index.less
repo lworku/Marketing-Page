@@ -1,200 +1,96 @@
 
-@font-face {
-    font-family: 'gilroyextrabold';
-    src: url('gilroy-extrabold-webfont.woff2') format('woff2'),
-         url('gilroy-extrabold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'gilroylight';
-    src: url('gilroy-light-webfont.woff2') format('woff2'),
-         url('gilroy-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 body {
-	width: 1440px;
+	width: 1440px;	
 }
+
 .main-content {
 	padding-left: 5%;
-	padding-top: 10%;
+	padding-top: 10%;	
+}
 
+.nav-wrapper img {
+	padding: 18px 0px 0px 22px;
 }
 
 .prompt-header {
-	width: 40%;
-	font-family: "gilroylight";
-	font-weight: 900;
-	// font-size: 3.75rem;
-	color: @font-color;
-	line-height: 1.25em;
-	// padding-bottom: 2.5%;
-
-	padding: 52px 0px 0px 17px;
+	width: 51%;
+    font-family: "gilroylight";
+    font-weight: 900;
+    color: #3F3F3F;
+    line-height: 1.25em;
+    padding: 58px 0px 0px 26px;
     font-size: 60px;
     line-height: 72px;
-    letter-spacing: 0.05px;
+    letter-spacing: 0.25px;
 }
 
-
 .prompt-paragraph {
-	// width: 47%;
-	// padding-bottom: 2.5%;
-	padding: 36px 0px 0px 13px;
+	padding: 37px 0px 0px 24px;
     font-family: gilroylight;
     line-height: 30px;
     font-size: 21px;
-    letter-spacing: 1px;
+    letter-spacing: 0.25px;
     /* padding-bottom: 10px; */
-    width: 40%;
-	//pixel perfect need to make responsive
+    width: 46%;
 }
 
 .findTrialInputs {
 	display: flex;
-	padding: 45px 0px 0px 11px;
-	
+	padding: 45px 0px 0px 11px;	
 }
 
 #findTrialButton {
-	background-color: @button-color;
+	background-color: #223547;
 	font-family: "gilroylight";
 	height: 42px;
 	width: 127px;
 	border: 0;
 	color: white;
-	text-align: center;
+	/* text-align: center; */
 	align-items: center;
 	justify-content: center;
 	text-decoration: none;
-	display: inline-block;
+	display: flex;
 	font-size: 16px;
 	border-radius: 21px;
-    margin: 0px 0px 0px 9px;
+	margin: 0px 0px 0px 9px;
 	text-transform: uppercase;
-	transition: .3s background ease;
-
+	transition: 0.3s background ease;
+	
 	&:hover{
 		background: #1BD9C4
 	}
 }
-
+	
 #medicalConditionInput {
-	margin-right: 10px;
-    padding: 0px 0px 0px 19px;
-    width: 30em;
-    height: 42px;
-    border-radius: 21px;
-    border: 0.05em solid #979797;
+	padding: 1px 0px 0px 17px;
+	margin: 0px 9px 0px 13px;
+	width: 30em;
+	height: 42px;
+	border-radius: 21px;
+	border: 0.05em solid #979797;
 	font-size: 15px;
 	font-weight: 500;
-	font-family: 'gilroylight'
+	font-family: 'gilroylight';
+	letter-spacing: 0px;
 }
-
+	
 #postalCodeInput {	
 	height: 42px;
-    width: 134px;
-    color: #828282;
-    font-family: "gilroylight";
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 18px;
-    border: 0.05em solid #979797;
-    border-radius: 21px;
-    padding: 0px 0px 0px 25px;
+	width: 134px;
+	color: #828282;
+	font-family: "gilroylight";
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 18px;
+	border: 0.05em solid #979797;
+	border-radius: 21px;
+	padding: 0px 0px 0px 25px;
 }
-
-.molecules{
 	
-	margin-top: -26%;
+.molecules {
+	pointer-events: none;
+	margin-top: -30%;
 	margin-bottom: 1.5%;
 }
-
-// // STYLE FOR AGE.PNG
-
-// .age-container {
-// 	margin: 0 auto;
-// }
-
-// .age-page-logo {
-// 	padding-top: 7%;
-// 	padding-left: 18%;
-// 	padding-bottom: 8%;
-// }
-
-// .age-dial {
-// 	margin-left: 20%;
-// }
-// .age-main-content {
-// 	display: flex;
-// }
-
-// .age-prompt {
-// 	display:flex;
-// 	flex-direction: column;
-// 	height: 50vh;
-// 	margin-left: 7%;
-// 	margin-right: 5%;
-
-// 	p{
-// 		padding-bottom: 10%;
-// 		font-size: 2.5em;
-// 	}
-
-// }
-
-// #ageInput {
-// 	width: 25.000em;
-// 	height: 42px;
-// 	border-radius: 21px;
-// 	border: .05em solid #979797;
-// }
-
-// #submitAge{
-// 	background-color: @button-color;
-// 	font-family: "gilroylight";
-// 	height: 42px;
-// 	width: 100px;
-// 	margin-top: 25px;
-// 	border: none;
-// 	color: white;
-// 	text-align: center;
-// 	text-decoration: none;
-// 	display: inline-block;
-// 	font-size: 16px;
-// 	border-radius: 21px;
-// 	text-transform: uppercase;
-// 	transition: .3s background ease;
-
-// 	&:hover{
-// 		background: #1BD9C4
-// 	}
-// }
-
-
-// .results-text {
-// 	height: 91px;
-// 	width: 232px;
-// 	padding-top: 14%; 
-// 	margin-left: 50%;
-// 	font-size: 2em;
-// 	text-align: center;
-// 	justify-items: center;
-// 	box-shadow: 0 2px 6px 0 rgba(0,0,0,0.21);
-// }
-
-// .ageBackArrow{
-// 	margin-left: 10%;
-// }
-
-
-
-
-
-
-
+	
