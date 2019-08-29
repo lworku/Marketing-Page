@@ -969,14 +969,16 @@ footer {
 }
 
 #age {
-  height: 111px;
-  width: 184px;
+  width: 15.8%;
   text-align: center;
   margin-top: 12px;
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
   margin-right: 164px;
+  p {
+    margin: 0px 0px 26px 0px;
+  }
 }
 
 #gender {
@@ -1008,6 +1010,7 @@ footer {
   height: 5px;
   width: 30px;
   background-color: #3f3f3f;
+  margin: 17px 37px 17px 27px;
 }
 
 .whereToParticipate {
@@ -1042,17 +1045,35 @@ footer {
 }
 
 .trialRecruitContainer {
-  height: 58px;
   width: 100%;
+  display: flex;
+
+  .distance {
+    padding: 0px 0px 0px 75px;
+    width: max-content;
+    justify-content: unset;
+  }
+
   .distance h1 {
     display: flex;
     flex-flow: column;
     padding: 0px 0px 0px 0px;
     margin-bottom: 3px;
   }
+
+  .locationDetails {
+    h2 {
+      margin-bottom: unset;
+    }
+    p {
+    }
+  }
 }
 
-#distanceWrapper {
-  text-align: center;
-  width: 8%;
+#ageData {
+  display: flex;
+  margin-left: 14px;
+  h1 {
+    margin: 0px 0px 0px 0px;
+  }
 }
