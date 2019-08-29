@@ -899,11 +899,11 @@ footer {
   width: 30px;
   background-color: #3f3f3f;
 }
-#whereToParticipate {
+.whereToParticipate {
   display: flex;
   flex-flow: column;
 }
-#whereToParticipate h1 {
+.whereToParticipate h1 {
   color: #3f3f3f;
   font-family: Gilroy;
   font-size: 30px;
@@ -912,7 +912,7 @@ footer {
   letter-spacing: 0.4px;
   margin-bottom: 50px;
 }
-#whereToParticipate h2 {
+.whereToParticipate h2 {
   color: #223547;
   font-family: Gilroy;
   font-size: 26px;
@@ -920,11 +920,26 @@ footer {
   line-height: 32px;
   margin-bottom: 32px;
 }
-#whereToParticipate h3 {
+.whereToParticipate h3 {
   color: #3f3f3f;
   font-family: Gilroy;
   font-size: 21px;
   font-weight: 900;
   line-height: 26px;
   letter-spacing: 0.23px;
+  margin-bottom: 46px;
+}
+.trialRecruitContainer {
+  height: 58px;
+  width: 100%;
+}
+.trialRecruitContainer .distance h1 {
+  display: flex;
+  flex-flow: column;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 3px;
+}
+#distanceWrapper {
+  text-align: center;
+  width: 8%;
 }
