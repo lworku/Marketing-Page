@@ -555,6 +555,10 @@ header #help {
   font-weight: 500;
   line-height: 16px;
   align-items: center;
+  margin-top: 6px;
+}
+.studyStatus p {
+  margin-top: 6px;
 }
 .viewStudyButtonContainer {
   margin: 44px 0px 0px 73px;
@@ -734,6 +738,9 @@ footer {
   line-height: 21px;
   padding: 13px 0px 12px 0px;
 }
+#resultCondition {
+  margin-right: 93px;
+}
 #resultsBackButtonContainer {
   width: 19.05%;
   margin-bottom: 50px;
@@ -757,7 +764,7 @@ footer {
 }
 #introDetails h1 {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 55px;
   padding-right: 41%;
   letter-spacing: 0.39px;
