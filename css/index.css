@@ -1005,3 +1005,71 @@ footer {
   border-top: none;
   padding-top: unset;
 }
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0.5%;
+}
+.nav-wrapper img {
+  padding: 18px 0px 0px 22px;
+}
+.nav-wrapper .nav-bar {
+  display: flex;
+  justify-content: space-around;
+  width: 32%;
+  padding: 26px 8px 0px 0px;
+  /* letter-spacing: 0px; */
+}
+.nav-wrapper .nav-bar a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-weight: 900;
+  color: #3f3f3f;
+  align-content: center;
+}
+.nav-wrapper .nav-bar :nth-last-child(2) {
+  padding: 0px 46px 0px 17px;
+}
+.nav-wrapper .nav-bar :last-child {
+  padding: 0px 51px 0px 0px;
+}
+.footer-nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0px;
+}
+.footer-nav-wrapper .footer-nav-bar {
+  display: flex;
+  margin: 0px 8px 0px 0px;
+}
+.footer-nav-wrapper .footer-nav-bar a {
+  align-items: center;
+  text-decoration: none;
+  font-family: "Gilroy";
+  color: #3f3f3f;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+#footerNavTextLinks {
+  margin: 1px 25px 0px 0px;
+}
+#footerNavTextLinks a {
+  margin: 0px 0px 0px 47px;
+}
+#footerNavImgLinks {
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+#footerNavImgLinks a {
+  margin-left: 25px;
+}
