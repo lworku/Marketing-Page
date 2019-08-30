@@ -935,7 +935,9 @@ footer {
 .trialRecruitContainer {
   width: 100%;
   display: flex;
-  margin-bottom: 99px;
+  margin-bottom: 50px;
+  border-top: 1px #dddddd solid;
+  padding-top: 48px;
 }
 .trialRecruitContainer .distance {
   padding: 0px 0px 0px 75px;
@@ -967,7 +969,7 @@ footer {
   margin: 2px 0px 5px 0px;
 }
 .trialRecruitContainer .studyStatus {
-  margin: 0px 0px 4px 286px;
+  margin: 0px 0px 1px 286px;
   height: 100%;
 }
 .trialRecruitContainer .studyStatus p {
@@ -977,14 +979,14 @@ footer {
   margin-left: 1px;
 }
 .trialRecruitContainer .viewStudyButtonContainer {
-  margin: 5px 0px 0px 234px;
+  margin: 5px 0px 0px 235px;
   height: 46px;
   width: 20%;
   border-radius: 23px;
   background-color: #223547;
 }
 .trialRecruitContainer .viewStudyButton {
-  padding: 0px 25.4px;
+  padding: 0px 25.5px 0px 25.4px;
   width: auto;
 }
 #ageData {
@@ -996,4 +998,10 @@ footer {
 }
 #firstResult {
   margin-bottom: 75px;
+  border-top: none;
+  padding-top: unset;
+}
+#firstOtherLocation {
+  border-top: none;
+  padding-top: unset;
 }
