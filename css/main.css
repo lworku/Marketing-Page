@@ -226,15 +226,12 @@ img {
   font-weight: 900;
   line-height: 16px;
 }
-body {
-  width: 1440px;
-}
 .main-content {
   padding-left: 5%;
   padding-top: 10%;
 }
 .nav-wrapper img {
-  padding: 18px 0px 0px 22px;
+  padding: 1.125em 0em 0em 1.375em;
 }
 .prompt-header {
   width: 51%;
