@@ -180,7 +180,7 @@ img {
 .nav-wrapper .nav-bar {
   display: flex;
   justify-content: space-around;
-  width: 27%;
+  width: 32%;
   padding: 26px 8px 0px 0px;
   /* letter-spacing: 0px; */
 }
