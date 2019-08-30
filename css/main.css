@@ -1,0 +1,474 @@
+@font-face {
+  font-family: 'gilroyextrabold';
+  src: url('../fonts/webfontkit/gilroy-extrabold-webfont.woff2') format('woff2'), url('../fonts/webfontkit/gilroy-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroylight';
+  src: url('../fonts/webfontkit/gilroy-light-webfont.woff2') format('woff2'), url('../fonts/webfontkit/gilroy-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0.5%;
+}
+.nav-wrapper img {
+  padding: 18px 0px 0px 22px;
+}
+.nav-wrapper .nav-bar {
+  display: flex;
+  justify-content: space-around;
+  width: 32%;
+  padding: 26px 8px 0px 0px;
+  /* letter-spacing: 0px; */
+}
+.nav-wrapper .nav-bar a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-family: 'gilroylight';
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #3F3F3F;
+  align-content: center;
+}
+.nav-wrapper .nav-bar :nth-last-child(2) {
+  padding: 0px 46px 0px 17px;
+}
+.nav-wrapper .nav-bar :last-child {
+  padding: 0px 51px 0px 0px;
+}
+.footer-nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 10px;
+  border-top: 1px solid #DDDDDD;
+}
+.footer-nav-wrapper img {
+  padding: 17px 0px 0px 28px;
+}
+.footer-nav-wrapper .footer-nav-bar {
+  display: flex;
+}
+.footer-nav-wrapper .footer-nav-bar a {
+  align-items: center;
+  padding: 0px 0px 0px 38px;
+  /* margin: 0px 0px 0px 0px; */
+  text-decoration: none;
+  font-family: 'gilroylight';
+  font-size: 1.4rem;
+  color: #3F3F3F;
+  font-weight: 900;
+  line-height: 16px;
+}
+.main-content {
+  padding-left: 5%;
+  padding-top: 10%;
+}
+.nav-wrapper img {
+  padding: 1.125em 0em 0em 1.375em;
+}
+.prompt-header {
+  width: 51%;
+  font-family: "gilroylight";
+  font-weight: 900;
+  color: #3F3F3F;
+  line-height: 1.25em;
+  padding: 58px 0px 0px 26px;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0.25px;
+}
+.prompt-paragraph {
+  padding: 37px 0px 0px 24px;
+  font-family: gilroylight;
+  line-height: 30px;
+  font-size: 21px;
+  letter-spacing: 0.25px;
+  /* padding-bottom: 10px; */
+  width: 46%;
+}
+.findTrialInputs {
+  display: flex;
+  padding: 45px 0px 0px 11px;
+}
+#findTrialButton {
+  background-color: #223547;
+  font-family: "gilroylight";
+  height: 42px;
+  width: 127px;
+  border: 0;
+  color: white;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  border-radius: 21px;
+  margin: 0px 0px 0px 9px;
+  text-transform: uppercase;
+  transition: 0.3s background ease;
+  z-index: 1;
+}
+#findTrialButton:hover {
+  background: #1BD9C4;
+}
+#medicalConditionInput {
+  padding: 1px 0px 0px 17px;
+  margin: 0px 9px 0px 13px;
+  width: 30em;
+  height: 42px;
+  border-radius: 21px;
+  border: 0.05em solid #979797;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'gilroylight';
+  letter-spacing: 0px;
+  z-index: 1;
+}
+#postalCodeInput {
+  height: 42px;
+  width: 134px;
+  color: #828282;
+  font-family: "gilroylight";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  border: 0.05em solid #979797;
+  border-radius: 21px;
+  padding: 0px 0px 0px 25px;
+  z-index: 1;
+}
+.molecules {
+  pointer-events: none;
+  margin-top: -30%;
+  margin-bottom: 1.5%;
+  z-index: 0;
+}
+.age-container {
+  margin: 0 auto;
+}
+.age-page-logo {
+  padding: 120px 0px 0px 144px;
+}
+.age-page-logo img {
+  height: 63px;
+  width: 172px;
+}
+.age-main-content {
+  display: flex;
+  padding: 84px 0px 0px 173px;
+}
+.age-prompt {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  padding: 0px 0px 0px 68px;
+  font-family: gilroylight;
+}
+.age-prompt p {
+  font-size: 2.1em;
+  padding: 3px 0px 27px 0px;
+}
+#ageInput {
+  width: 18.5em;
+  height: 48px;
+  border-radius: 35px;
+  border: 0.05em solid #979797;
+  font-family: gilroylight;
+  font-size: 16px;
+  font-color: #AEAEAE;
+  padding: 0px 0px 0px 235px;
+}
+#submitAge {
+  background-color: #223547;
+  font-family: "gilroylight";
+  height: 46px;
+  width: 105px;
+  margin-top: 23px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 30px;
+  transition: 0.3s background ease;
+}
+#submitAge:hover {
+  background: #1BD9C4;
+}
+.age-results {
+  display: flex;
+}
+.age-results-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91px;
+  width: 232px;
+  padding: 0px 0px 0px 0px;
+  margin: 6px 0px 0px 300px;
+  font-family: 'gilroylight';
+  font-size: 2.1em;
+  font-weight: 900;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
+}
+.ageBackArrow {
+  padding: 142px 0px 0px 38px;
+}
+.age-container {
+  margin: 0 auto;
+}
+.travelRadiusHeader {
+  display: block;
+  padding: 121px 0px 0px 187px;
+}
+.travelRadiusHeader img {
+  height: 63px;
+  width: 172px;
+}
+.travelRadiusDial {
+  margin-left: 20%;
+}
+.travelRadiusMainContent {
+  display: flex;
+  padding: 81px 0px 0px 218px;
+}
+.travelRadiusMainContent .box .chart {
+  padding: 0px 0px 0px 0px;
+}
+.travelRadiusPrompt {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  padding: 0px 82px 0px 73px;
+}
+.travelRadiusPrompt p {
+  line-height: 1.5;
+  font-size: 2.1rem;
+  font-family: 'gilroylight';
+  padding: 0px 0px 3px 0px;
+  margin: 6px 0px 0px -6px;
+}
+.radioContainerTravelRadius {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  padding: 3px 0px 2px 43px;
+  margin: 34px 0px 0px 0px;
+  /* padding-left: 45px; */
+  /* padding-bottom: 30px; */
+  font-size: 21px;
+  font-weight: 500;
+  font-family: 'gilroylight';
+}
+.radioContainerTravelRadius input {
+  display: none;
+}
+.radioContainerTravelRadius .circle {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 0.05em solid #1BD9C4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+}
+.radioContainerTravelRadius:hover .circle {
+  background-color: #1BD9C4;
+}
+.radioContainerTravelRadius input:checked + .circle {
+  background-color: #1BD9C4;
+}
+.travel-results {
+  display: flex;
+}
+.travel-results-text {
+  display: flex;
+  height: 91px;
+  width: 232px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  margin: 9px 0px 0px 198px;
+  /* text-align: center; */
+  /* justify-items: center; */
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
+  font-family: gilroylight;
+  font-size: 2.1em;
+  line-height: 25;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+.travelRadiusBackArrow {
+  padding: 145px 0px 0px 80px;
+}
