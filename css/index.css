@@ -1,16 +1,10 @@
-// body {
-// 	width: ;
-// }
-
 .main-content {
   padding-left: 5%;
   padding-top: 10%;
 }
-
 .nav-wrapper img {
   padding: 1.125em 0em 0em 1.375em;
 }
-
 .prompt-header {
   width: 51%;
   font-family: "gilroylight";
@@ -22,7 +16,6 @@
   line-height: 72px;
   letter-spacing: 0.25px;
 }
-
 .prompt-paragraph {
   padding: 37px 0px 0px 24px;
   font-family: gilroylight;
@@ -32,12 +25,10 @@
   /* padding-bottom: 10px; */
   width: 46%;
 }
-
 .findTrialInputs {
   display: flex;
   padding: 45px 0px 0px 11px;
 }
-
 #findTrialButton {
   background-color: #223547;
   font-family: "gilroylight";
@@ -56,12 +47,10 @@
   text-transform: uppercase;
   transition: 0.3s background ease;
   z-index: 1;
-
-  &:hover {
-    background: #1bd9c4;
-  }
 }
-
+#findTrialButton:hover {
+  background: #1bd9c4;
+}
 #medicalConditionInput {
   padding: 1px 0px 0px 17px;
   margin: 0px 9px 0px 13px;
@@ -75,7 +64,6 @@
   letter-spacing: 0px;
   z-index: 1;
 }
-
 #postalCodeInput {
   height: 42px;
   width: 134px;
@@ -89,7 +77,6 @@
   padding: 0px 0px 0px 25px;
   z-index: 1;
 }
-
 .molecules {
   pointer-events: none;
   margin-top: -30%;
